@@ -1,0 +1,126 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-size:16px;
+    font-family: sans-serif;
+}
+
+.logo-and-toogle {
+
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    height: 10vh;
+    background-color:red;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+#logo-nav {
+
+    width: 5vw;
+}
+
+nav {
+
+
+    width: 100vw;
+    height: 90vh;
+    margin-top:10vh ;
+    z-index:999;
+    position:fixed;
+    background-color:red;
+}
+
+
+.menu-link {
+
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.menu-link_items {
+
+    text-decoration: none;
+    color:red;
+    font-size:5em;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    text-transform:uppercase;
+}
+
+header {
+
+    padding-top:15vh;
+    background:linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.1292892156862745) 100%), url(/images/background/spruce-trees-covered-by-snow-riisitunturi-national-park-finland.jpg) fixed;
+    background-size: cover;
+}
+
+.header_logo {
+
+    display: block;
+    margin: 0 auto;
+    width: 20vw;
+    height: auto;
+
+}
+
+hgroup {
+
+
+text-align:justify;
+width: 60%;
+background-color:yellow;
+margin: 0 auto;
+}
+
+.services {
+
+    background:#ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: ;
+}
+
+.services_art {
+    background: linear-gradient(145deg, #FFFFFF, #DADADA);
+    border-radius: 10%;
+    box-shadow: inset 9.01px 9.01px 23px #E7E7E7, inset -9.01px -9.01px 23px #FFFFFF;
+width: 300px;
+height:300px;
+padding: 30px;
+}
+
+
+.nos-engagements_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0px;
+    width: 80%;
+    margin: 0 auto;
+    
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 4; }
+    .div3 { grid-area: 2 / 1 / 3 / 3; }
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 4; }
