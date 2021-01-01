@@ -122,7 +122,7 @@ nav {
 header {
 
     padding-top: 15vh;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1292892156862745) 100%), url("./images/background/spruce-trees-covered-by-snow-riisitunturi-national-park-finland.jpg") fixed;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1292892156862745) 100%), url("../images/background/spruce-trees-covered-by-snow-riisitunturi-national-park-finland.jpg") fixed;
     background-size: cover;
 }
 
@@ -179,7 +179,7 @@ margin: 0 auto;
     height: 20px;
     width: 20px;
     background-size: 20px;
-    background-image: url("./images/icones/flocons-listes.svg");
+    background-image: url("../images/icones/flocons-listes.svg");
     background-repeat: no-repeat;
     margin: 0 5px 0 0;
 
@@ -231,7 +231,7 @@ margin: 0 auto;
 
 .contact {
 
-    background: url("./images/background/sapin.svg") no-repeat fixed center;
+    background: url("../images/background/sapin.svg") no-repeat fixed center;
     background-size: cover;
 
 
