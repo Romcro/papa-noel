@@ -99,7 +99,7 @@ margin: 0 auto;
 }
 
 .services_art {
-    background: linear-gradient(145deg, #FFFFFF, #DADADA);
+    background: #ffffff;
     border-radius: 10%;
     box-shadow: inset 9.01px 9.01px 23px #E7E7E7, inset -9.01px -9.01px 23px #FFFFFF;
 width: 300px;
@@ -115,7 +115,13 @@ padding: 30px;
     grid-gap: 0px;
     width: 80%;
     margin: 0 auto;
-    
+    }
+
+    .nos-engagements_grid--img {
+
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -124,3 +130,8 @@ padding: 30px;
     .div4 { grid-area: 2 / 3 / 3 / 4; }
     .div5 { grid-area: 3 / 1 / 4 / 2; }
     .div6 { grid-area: 3 / 2 / 4 / 4; }
+
+    .contact {
+
+        background: url(/images/background/sapin.svg);
+    }
