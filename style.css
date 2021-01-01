@@ -30,6 +30,12 @@ body {
     width: 5vw;
 }
 
+.fa-bars {
+
+    color:#ffffff;
+    font-size: 2em;
+}
+
 nav {
 
 
@@ -74,7 +80,7 @@ header {
 
     display: block;
     margin: 0 auto;
-    width: 20vw;
+    width: 70vh;
     height: auto;
 
 }
@@ -95,7 +101,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: ;
+    align-items:center ;
 }
 
 .services_art {
@@ -107,7 +113,11 @@ height:300px;
 padding: 30px;
 }
 
+.nos-engagements {
 
+    background-color:green;
+
+}
 .nos-engagements_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -133,5 +143,6 @@ padding: 30px;
 
     .contact {
 
-        background: url(/images/background/sapin.svg);
+        background: url(/images/background/sapin.svg) no-repeat fixed;
+        background-size: cover;
     }
