@@ -263,24 +263,7 @@ textarea {
     background-color: transparent;
 }
 
-input[type="submit"] {
-    border: 1px solid red;
-    background-color: #fff;
-    border-radius: 5px;
-    width: 50%;
-    margin: 0 auto;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-
-input[type="submit"]:hover {
-
-    background-color: #b14437;
-}
 
 .mon-icone {
 
@@ -321,15 +304,23 @@ input[type="submit"]:hover {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
 
 
 
     .menu-link_items {
 
-        font-size: 1em;
+        font-size: 2em;
 
+    }
+
+    .services_art {
+
+        width:250px;
+        height: 250px;;
+    
+    
     }
 
 
@@ -349,7 +340,6 @@ input[type="submit"]:hover {
     .menu-link_items {
 
         font-size: 0.8em;
-
 
   
     }
