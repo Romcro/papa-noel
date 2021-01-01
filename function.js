@@ -14,7 +14,6 @@ togg1.addEventListener("click", () => {
 })
 
 
-
 /* la fonction suivante sert à réduire le logo au scroll  */
 
 
